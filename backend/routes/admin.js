@@ -1,7 +1,7 @@
 const express = require("express");
 const util = require("util");
 const db = require("../config/db");
-const verifyToken = require("../middleware/authMiddleware");
+const verifyToken = require("../middleware/authmiddleware");
 
 const router = express.Router();
 const query = util.promisify(db.query).bind(db);
