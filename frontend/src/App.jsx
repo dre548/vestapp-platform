@@ -7,13 +7,13 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Verify from "./pages/Verify";
-import ForgotPassword from "./pages/ForgotPassword";
 import Dashboard from "./pages/Dashboard";
 import MyDevices from "./pages/MyDevices";
 import Wallet from "./pages/Wallet";
 import Referrals from "./pages/Referrals";
 import ClaimEarnings from "./pages/ClaimEarnings";
 import AdminPanel from "./pages/AdminPanel";
+import ForgotPassword from './pages/ForgotPass';
 
 function App() {
   return (
