@@ -15,6 +15,9 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.get("/", (req, res) => {
     res.json({ message: "Investment App API is running..." });
 });
+app.get('/', (req, res) => {
+    res.status(200).send('Server is awake and running!');
+});
 
 // Routes (Must be defined BEFORE app.listen!)
 app.use("/api/auth", require("./routes/auth"));
