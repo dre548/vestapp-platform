@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 
 const ForgotPassword = () => {
   const [step, setStep] = useState(1); // Step 1: Request OTP | Step 2: Reset Password
